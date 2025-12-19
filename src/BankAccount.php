@@ -1,5 +1,9 @@
 <?php
 
+namespace mrmzn\lb8;
+use mrmzn\lb8\Exception\InvalidAmountException;
+use mrmzn\lb8\Exception\InsufficientFundsException;
+
 class BankAccount
 {
     private float $balance;

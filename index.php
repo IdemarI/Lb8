@@ -3,6 +3,10 @@ require_once 'InvalidAmountException.php';
 require_once 'InsufficientFundsException.php';
 require_once 'BankAccount.php';
 
+use mrmzn\lb8\BankAccount;
+use mrmzn\lb8\Exception\InvalidAmountException;
+use mrmzn\lb8\Exception\InsufficientFundsException;
+
 function displayMenu(): void
 {
     echo "\nБанковский счет - Меню:\n";
